@@ -1,0 +1,273 @@
+[{
+  "_id": "pac001",
+  "nome": "Carlos Oliveira Souza",
+  "cpf": {
+    "$numberLong": "12345678901"
+  },
+  "telefone": "(11) 99876-5432",
+  "logradouro": "Rua das Flores",
+  "numero": 123,
+  "complemento": "Apto 45",
+  "bairro": "Centro",
+  "cidade": "São Paulo",
+  "estado": "SP",
+  "cep": "01234-567",
+  "dataNascimento": {
+    "$date": "1980-05-15T00:00:00.000Z"
+  },
+  "email": "carlos.souza@email.com",
+  "observacoes": "Hipertenso, faz uso de medicação contínua",
+  "ativo": true,
+  "dataCadastro": {
+    "$date": "2025-03-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": "pac002",
+  "nome": "Fernanda Lima Pereira",
+  "cpf": {
+    "$numberLong": "98765432109"
+  },
+  "telefone": "(11) 98765-1234",
+  "logradouro": "Av. Paulista",
+  "numero": 1000,
+  "bairro": "Bela Vista",
+  "cidade": "São Paulo",
+  "estado": "SP",
+  "cep": "01310-100",
+  "dataNascimento": {
+    "$date": "1992-08-20T00:00:00.000Z"
+  },
+  "email": "fernanda.lima@email.com",
+  "ativo": true,
+  "dataCadastro": {
+    "$date": "2025-04-05T00:00:00.000Z"
+  }
+},
+{
+  "_id": "pac003",
+  "nome": "José Roberto Santos",
+  "cpf": {
+    "$numberLong": "11122233344"
+  },
+  "telefone": "(11) 97654-3210",
+  "logradouro": "Rua Augusta",
+  "numero": 500,
+  "bairro": "Consolação",
+  "cidade": "São Paulo",
+  "estado": "SP",
+  "cep": "01305-000",
+  "dataNascimento": {
+    "$date": "1975-12-03T00:00:00.000Z"
+  },
+  "email": "jose.santos@email.com",
+  "observacoes": "Diabético tipo 2",
+  "ativo": true,
+  "dataCadastro": {
+    "$date": "2025-05-20T00:00:00.000Z"
+  }
+},
+{
+  "_id": "pac004",
+  "nome": "Maria Clara Rodrigues",
+  "cpf": {
+    "$numberLong": "22233344455"
+  },
+  "telefone": "(11) 96543-2109",
+  "logradouro": "Rua Oscar Freire",
+  "numero": 789,
+  "bairro": "Jardins",
+  "cidade": "São Paulo",
+  "estado": "SP",
+  "cep": "01426-001",
+  "dataNascimento": {
+    "$date": "1988-03-25T00:00:00.000Z"
+  },
+  "email": "maria.rodrigues@email.com",
+  "ativo": true,
+  "dataCadastro": {
+    "$date": "2025-06-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": "pac005",
+  "nome": "João Pedro Alves",
+  "cpf": {
+    "$numberLong": "33344455566"
+  },
+  "telefone": "(11) 95432-1098",
+  "logradouro": "Av. Faria Lima",
+  "numero": 2000,
+  "bairro": "Itaim Bibi",
+  "cidade": "São Paulo",
+  "estado": "SP",
+  "cep": "01452-000",
+  "dataNascimento": {
+    "$date": "2010-07-10T00:00:00.000Z"
+  },
+  "email": "joao.alves@email.com",
+  "observacoes": "Alergia a dipirona",
+  "ativo": true,
+  "dataCadastro": {
+    "$date": "2025-07-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": "pac006",
+  "nome": "Ana Paula Costa",
+  "cpf": {
+    "$numberLong": "44455566677"
+  },
+  "telefone": "(11) 94321-0987",
+  "logradouro": "Rua Vergueiro",
+  "numero": 1500,
+  "bairro": "Vila Mariana",
+  "cidade": "São Paulo",
+  "estado": "SP",
+  "cep": "04101-000",
+  "dataNascimento": {
+    "$date": "1995-11-30T00:00:00.000Z"
+  },
+  "email": "ana.costa@email.com",
+  "ativo": true,
+  "dataCadastro": {
+    "$date": "2025-08-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": "pac007",
+  "nome": "Ricardo Mendes Silva",
+  "cpf": {
+    "$numberLong": "55566677788"
+  },
+  "telefone": "(11) 93210-9876",
+  "logradouro": "Rua da Consolação",
+  "numero": 3000,
+  "bairro": "Consolação",
+  "cidade": "São Paulo",
+  "estado": "SP",
+  "cep": "01416-000",
+  "dataNascimento": {
+    "$date": {
+      "$numberLong": "-53827200000"
+    }
+  },
+  "email": "ricardo.silva@email.com",
+  "observacoes": "Cardiopata, em acompanhamento",
+  "ativo": true,
+  "dataCadastro": {
+    "$date": "2025-09-05T00:00:00.000Z"
+  }
+},
+{
+  "_id": "pac008",
+  "nome": "Juliana Oliveira Santos",
+  "cpf": {
+    "$numberLong": "66677788899"
+  },
+  "telefone": "(11) 92109-8765",
+  "logradouro": "Av. Rebouças",
+  "numero": 1234,
+  "bairro": "Pinheiros",
+  "cidade": "São Paulo",
+  "estado": "SP",
+  "cep": "05402-000",
+  "dataNascimento": {
+    "$date": "1985-09-22T00:00:00.000Z"
+  },
+  "email": "juliana.santos@email.com",
+  "ativo": true,
+  "dataCadastro": {
+    "$date": "2025-10-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": "pac009",
+  "nome": "Pedro Henrique Lima",
+  "cpf": {
+    "$numberLong": "77788899900"
+  },
+  "telefone": "(11) 91098-7654",
+  "logradouro": "Rua Estados Unidos",
+  "numero": 567,
+  "bairro": "Jardim América",
+  "cidade": "São Paulo",
+  "estado": "SP",
+  "cep": "01427-001",
+  "dataNascimento": {
+    "$date": "2015-01-05T00:00:00.000Z"
+  },
+  "email": "pedro.lima@email.com",
+  "observacoes": "Paciente pediátrico, acompanhamento de crescimento",
+  "ativo": true,
+  "dataCadastro": {
+    "$date": "2025-10-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": "pac010",
+  "nome": "Beatriz Ferreira Costa",
+  "cpf": {
+    "$numberLong": "88899900011"
+  },
+  "telefone": "(11) 90987-6543",
+  "logradouro": "Av. Brigadeiro Faria Lima",
+  "numero": 3500,
+  "bairro": "Itaim Bibi",
+  "cidade": "São Paulo",
+  "estado": "SP",
+  "cep": "04538-133",
+  "dataNascimento": {
+    "$date": "1990-06-14T00:00:00.000Z"
+  },
+  "email": "beatriz.costa@email.com",
+  "ativo": true,
+  "dataCadastro": {
+    "$date": "2025-11-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": "pac011",
+  "nome": "Marcos Antonio Ribeiro",
+  "cpf": {
+    "$numberLong": "99900011122"
+  },
+  "telefone": "(11) 99876-5432",
+  "logradouro": "Rua Haddock Lobo",
+  "numero": 890,
+  "bairro": "Cerqueira César",
+  "cidade": "São Paulo",
+  "estado": "SP",
+  "cep": "01414-001",
+  "dataNascimento": {
+    "$date": "1972-02-28T00:00:00.000Z"
+  },
+  "email": "marcos.ribeiro@email.com",
+  "observacoes": "Acompanhamento ortopédico por lesão no joelho",
+  "ativo": true,
+  "dataCadastro": {
+    "$date": "2025-11-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": "pac012",
+  "nome": "Camila Souza Martins",
+  "cpf": {
+    "$numberLong": "10011122233"
+  },
+  "telefone": "(11) 98765-4321",
+  "logradouro": "Av. Ibirapuera",
+  "numero": 2000,
+  "bairro": "Moema",
+  "cidade": "São Paulo",
+  "estado": "SP",
+  "cep": "04028-002",
+  "dataNascimento": {
+    "$date": "1987-10-12T00:00:00.000Z"
+  },
+  "email": "camila.martins@email.com",
+  "ativo": true,
+  "dataCadastro": {
+    "$date": "2025-11-20T00:00:00.000Z"
+  }
+}]

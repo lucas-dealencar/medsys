@@ -1,0 +1,112 @@
+[{
+  "_id": "pag001",
+  "consultaId": "con001",
+  "valor": 250,
+  "dataPagamento": {
+    "$date": "2025-10-15T00:00:00.000Z"
+  },
+  "formaPagamento": "dinheiro",
+  "status": "pago",
+  "numeroRecibo": "REC000001",
+  "dataCriacao": {
+    "$date": "2025-10-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": "pag002",
+  "consultaId": "con002",
+  "valor": 180,
+  "dataPagamento": {
+    "$date": "2025-10-20T00:00:00.000Z"
+  },
+  "formaPagamento": "cartao_credito",
+  "status": "pago",
+  "numeroRecibo": "REC000002",
+  "dataCriacao": {
+    "$date": "2025-10-20T00:00:00.000Z"
+  }
+},
+{
+  "_id": "pag003",
+  "consultaId": "con003",
+  "valor": 200,
+  "dataPagamento": {
+    "$date": "2025-11-05T00:00:00.000Z"
+  },
+  "formaPagamento": "cartao_debito",
+  "status": "pago",
+  "numeroRecibo": "REC000003",
+  "dataCriacao": {
+    "$date": "2025-11-05T00:00:00.000Z"
+  }
+},
+{
+  "_id": "pag004",
+  "consultaId": "con004",
+  "valor": 280,
+  "dataPagamento": {
+    "$date": "2025-11-10T00:00:00.000Z"
+  },
+  "formaPagamento": "pix",
+  "status": "pago",
+  "numeroRecibo": "REC000004",
+  "dataCriacao": {
+    "$date": "2025-11-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": "pag005",
+  "consultaId": "con005",
+  "valor": 220,
+  "dataPagamento": {
+    "$date": "2025-11-15T00:00:00.000Z"
+  },
+  "formaPagamento": "dinheiro",
+  "status": "pago",
+  "numeroRecibo": "REC000005",
+  "dataCriacao": {
+    "$date": "2025-11-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": "pag006",
+  "consultaId": "con006",
+  "valor": 250,
+  "dataPagamento": {
+    "$date": "2025-11-20T00:00:00.000Z"
+  },
+  "formaPagamento": "cartao_credito",
+  "status": "pago",
+  "numeroRecibo": "REC000006",
+  "dataCriacao": {
+    "$date": "2025-11-20T00:00:00.000Z"
+  }
+},
+{
+  "_id": "pag007",
+  "consultaId": "con007",
+  "valor": 230,
+  "dataPagamento": {
+    "$date": "2025-11-22T00:00:00.000Z"
+  },
+  "formaPagamento": "pix",
+  "status": "pago",
+  "numeroRecibo": "REC000007",
+  "dataCriacao": {
+    "$date": "2025-11-22T00:00:00.000Z"
+  }
+},
+{
+  "_id": "pag008",
+  "consultaId": "con008",
+  "valor": 180,
+  "dataPagamento": {
+    "$date": "2025-11-25T00:00:00.000Z"
+  },
+  "formaPagamento": "cartao_debito",
+  "status": "pago",
+  "numeroRecibo": "REC000008",
+  "dataCriacao": {
+    "$date": "2025-11-25T00:00:00.000Z"
+  }
+}]

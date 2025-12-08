@@ -1,0 +1,133 @@
+[{
+  "_id": "pro001",
+  "pacienteId": "pac001",
+  "consultaId": "con001",
+  "medicoId": "med001",
+  "data": {
+    "$date": "2025-10-15T00:00:00.000Z"
+  },
+  "anamnese": "Paciente relata cansaço e falta de ar ao subir escadas. Hipertenso em tratamento há 5 anos.",
+  "diagnostico": "Hipertensão arterial controlada. Suspeita de insuficiência cardíaca leve.",
+  "prescricao": "Manter Losartana 50mg 1x/dia. Adicionar Furosemida 40mg se necessário. Solicitar ecocardiograma.",
+  "observacoes": "Orientado sobre dieta hipossódica e atividade física regular.",
+  "examesSolicitados": "Ecocardiograma|ECG|Hemograma completo",
+  "dataCriacao": {
+    "$date": "2025-10-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": "pro002",
+  "pacienteId": "pac003",
+  "consultaId": "con002",
+  "medicoId": "med005",
+  "data": {
+    "$date": "2025-10-20T00:00:00.000Z"
+  },
+  "anamnese": "Paciente diabético tipo 2, glicemia em jejum 180mg/dL. Refere poliúria e polidipsia.",
+  "diagnostico": "Diabetes mellitus tipo 2 descompensado.",
+  "prescricao": "Aumentar Metformina para 850mg 2x/dia. Iniciar Glimepirida 2mg 1x/dia.",
+  "observacoes": "Orientado sobre alimentação adequada e necessidade de atividade física. Retorno em 30 dias.",
+  "examesSolicitados": "Glicemia de jejum|HbA1c|Perfil lipídico",
+  "dataCriacao": {
+    "$date": "2025-10-20T00:00:00.000Z"
+  }
+},
+{
+  "_id": "pro003",
+  "pacienteId": "pac005",
+  "consultaId": "con003",
+  "medicoId": "med002",
+  "data": {
+    "$date": "2025-11-05T00:00:00.000Z"
+  },
+  "anamnese": "Criança de 10 anos, consulta de rotina. Desenvolvimento adequado para a idade.",
+  "diagnostico": "Criança hígida. Desenvolvimento neuropsicomotor adequado.",
+  "prescricao": "Não há prescrição. Manter alimentação saudável.",
+  "observacoes": "Vacinação em dia. Orientações sobre higiene bucal e alimentação.",
+  "dataCriacao": {
+    "$date": "2025-11-05T00:00:00.000Z"
+  }
+},
+{
+  "_id": "pro004",
+  "pacienteId": "pac011",
+  "consultaId": "con004",
+  "medicoId": "med003",
+  "data": {
+    "$date": "2025-11-10T00:00:00.000Z"
+  },
+  "anamnese": "Paciente com dor no joelho direito há 3 semanas após atividade física intensa. Edema local discreto.",
+  "diagnostico": "Tendinite patelar grau II.",
+  "prescricao": "Repouso relativo. Ibuprofeno 600mg 8/8h por 7 dias. Gelo local 3x/dia.",
+  "observacoes": "Encaminhado para fisioterapia. Evitar atividades de impacto por 4 semanas.",
+  "examesSolicitados": "Raio-X de joelho direito|Ultrassom de partes moles",
+  "dataCriacao": {
+    "$date": "2025-11-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": "pro005",
+  "pacienteId": "pac002",
+  "consultaId": "con005",
+  "medicoId": "med004",
+  "data": {
+    "$date": "2025-11-15T00:00:00.000Z"
+  },
+  "anamnese": "Paciente com manchas escuras no rosto há 6 meses, sem sintomas associados.",
+  "diagnostico": "Melasma facial.",
+  "prescricao": "Hidroquinona 4% creme - aplicar à noite. Protetor solar FPS 60 - usar diariamente.",
+  "observacoes": "Orientada sobre fotoproteção rigorosa. Retorno em 60 dias para avaliação.",
+  "dataCriacao": {
+    "$date": "2025-11-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": "pro006",
+  "pacienteId": "pac007",
+  "consultaId": "con006",
+  "medicoId": "med001",
+  "data": {
+    "$date": "2025-11-20T00:00:00.000Z"
+  },
+  "anamnese": "Retorno de paciente cardiopata. Nega sintomas novos. Pressão arterial controlada.",
+  "diagnostico": "Cardiopatia isquêmica estável.",
+  "prescricao": "Manter medicação atual: AAS 100mg, Atorvastatina 40mg, Carvedilol 25mg.",
+  "observacoes": "Exames laboratoriais dentro da normalidade. Próximo retorno em 3 meses.",
+  "dataCriacao": {
+    "$date": "2025-11-20T00:00:00.000Z"
+  }
+},
+{
+  "_id": "pro007",
+  "pacienteId": "pac012",
+  "consultaId": "con007",
+  "medicoId": "med006",
+  "data": {
+    "$date": "2025-11-22T00:00:00.000Z"
+  },
+  "anamnese": "Consulta ginecológica de rotina. Última menstruação há 10 dias. Sem queixas.",
+  "diagnostico": "Sem alterações ao exame clínico.",
+  "prescricao": "Não há prescrição medicamentosa.",
+  "observacoes": "Solicitado exames de rotina. Orientações sobre saúde preventiva.",
+  "examesSolicitados": "Papanicolau|Ultrassom transvaginal|Mamografia",
+  "dataCriacao": {
+    "$date": "2025-11-22T00:00:00.000Z"
+  }
+},
+{
+  "_id": "pro008",
+  "pacienteId": "pac006",
+  "consultaId": "con008",
+  "medicoId": "med005",
+  "data": {
+    "$date": "2025-11-25T00:00:00.000Z"
+  },
+  "anamnese": "Check-up anual. Paciente sem queixas. Nega comorbidades.",
+  "diagnostico": "Paciente hígida.",
+  "prescricao": "Não há prescrição. Manter hábitos saudáveis.",
+  "observacoes": "Exames laboratoriais solicitados para avaliação geral de saúde.",
+  "examesSolicitados": "Hemograma|Glicemia|Colesterol total e frações|TSH|Creatinina",
+  "dataCriacao": {
+    "$date": "2025-11-25T00:00:00.000Z"
+  }
+}]

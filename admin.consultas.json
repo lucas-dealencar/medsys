@@ -1,0 +1,256 @@
+[{
+  "_id": "con001",
+  "pacienteId": "pac001",
+  "medicoId": "med001",
+  "dataHora": "2025-10-15 10:00:00",
+  "motivo": "Consulta de rotina cardiológica",
+  "status": "realizada",
+  "valorConsulta": 250,
+  "dataCriacao": {
+    "$date": "2025-10-10T00:00:00.000Z"
+  },
+  "dataAtualizacao": {
+    "$date": "2025-10-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": "con002",
+  "pacienteId": "pac003",
+  "medicoId": "med005",
+  "dataHora": "2025-10-20 14:00:00",
+  "motivo": "Controle de diabetes",
+  "status": "realizada",
+  "valorConsulta": 180,
+  "dataCriacao": {
+    "$date": "2025-10-15T00:00:00.000Z"
+  },
+  "dataAtualizacao": {
+    "$date": "2025-10-20T00:00:00.000Z"
+  }
+},
+{
+  "_id": "con003",
+  "pacienteId": "pac005",
+  "medicoId": "med002",
+  "dataHora": "2025-11-05 09:30:00",
+  "motivo": "Consulta pediátrica de rotina",
+  "status": "realizada",
+  "valorConsulta": 200,
+  "dataCriacao": {
+    "$date": "2025-11-01T00:00:00.000Z"
+  },
+  "dataAtualizacao": {
+    "$date": "2025-11-05T00:00:00.000Z"
+  }
+},
+{
+  "_id": "con004",
+  "pacienteId": "pac011",
+  "medicoId": "med003",
+  "dataHora": "2025-11-10 15:00:00",
+  "motivo": "Dor no joelho direito",
+  "status": "realizada",
+  "valorConsulta": 280,
+  "dataCriacao": {
+    "$date": "2025-11-05T00:00:00.000Z"
+  },
+  "dataAtualizacao": {
+    "$date": "2025-11-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": "con005",
+  "pacienteId": "pac002",
+  "medicoId": "med004",
+  "dataHora": "2025-11-15 16:00:00",
+  "motivo": "Manchas na pele",
+  "status": "realizada",
+  "valorConsulta": 220,
+  "dataCriacao": {
+    "$date": "2025-11-10T00:00:00.000Z"
+  },
+  "dataAtualizacao": {
+    "$date": "2025-11-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": "con006",
+  "pacienteId": "pac007",
+  "medicoId": "med001",
+  "dataHora": "2025-11-20 10:30:00",
+  "motivo": "Acompanhamento cardíaco",
+  "status": "realizada",
+  "valorConsulta": 250,
+  "dataCriacao": {
+    "$date": "2025-11-15T00:00:00.000Z"
+  },
+  "dataAtualizacao": {
+    "$date": "2025-11-20T00:00:00.000Z"
+  }
+},
+{
+  "_id": "con007",
+  "pacienteId": "pac012",
+  "medicoId": "med006",
+  "dataHora": "2025-11-22 09:00:00",
+  "motivo": "Consulta ginecológica de rotina",
+  "status": "realizada",
+  "valorConsulta": 230,
+  "dataCriacao": {
+    "$date": "2025-11-18T00:00:00.000Z"
+  },
+  "dataAtualizacao": {
+    "$date": "2025-11-22T00:00:00.000Z"
+  }
+},
+{
+  "_id": "con008",
+  "pacienteId": "pac006",
+  "medicoId": "med005",
+  "dataHora": "2025-11-25 11:00:00",
+  "motivo": "Check-up geral",
+  "status": "realizada",
+  "valorConsulta": 180,
+  "dataCriacao": {
+    "$date": "2025-11-20T00:00:00.000Z"
+  },
+  "dataAtualizacao": {
+    "$date": "2025-11-25T00:00:00.000Z"
+  }
+},
+{
+  "_id": "con009",
+  "pacienteId": "pac006",
+  "medicoId": "med001",
+  "dataHora": "2025-11-28 11:00:00",
+  "motivo": "Consulta cardiológica",
+  "status": "cancelada",
+  "justificativaCancelamento": "Paciente solicitou cancelamento por viagem",
+  "valorConsulta": 250,
+  "dataCriacao": {
+    "$date": "2025-11-20T00:00:00.000Z"
+  },
+  "dataAtualizacao": {
+    "$date": "2025-11-27T00:00:00.000Z"
+  }
+},
+{
+  "_id": "con010",
+  "pacienteId": "pac001",
+  "medicoId": "med001",
+  "dataHora": "2025-12-10 10:00:00",
+  "motivo": "Retorno cardiológico",
+  "status": "confirmada",
+  "valorConsulta": 250,
+  "dataCriacao": {
+    "$date": "2025-12-01T00:00:00.000Z"
+  },
+  "dataAtualizacao": {
+    "$date": "2025-12-05T00:00:00.000Z"
+  }
+},
+{
+  "_id": "con011",
+  "pacienteId": "pac002",
+  "medicoId": "med004",
+  "dataHora": "2025-12-12 14:30:00",
+  "motivo": "Retorno dermatológico",
+  "status": "agendada",
+  "valorConsulta": 220,
+  "dataCriacao": {
+    "$date": "2025-12-05T00:00:00.000Z"
+  },
+  "dataAtualizacao": {
+    "$date": "2025-12-05T00:00:00.000Z"
+  }
+},
+{
+  "_id": "con012",
+  "pacienteId": "pac009",
+  "medicoId": "med002",
+  "dataHora": "2025-12-13 09:00:00",
+  "motivo": "Vacinação",
+  "status": "confirmada",
+  "valorConsulta": 150,
+  "dataCriacao": {
+    "$date": "2025-12-06T00:00:00.000Z"
+  },
+  "dataAtualizacao": {
+    "$date": "2025-12-06T00:00:00.000Z"
+  }
+},
+{
+  "_id": "con013",
+  "pacienteId": "pac003",
+  "medicoId": "med005",
+  "dataHora": "2025-12-15 14:00:00",
+  "motivo": "Acompanhamento diabetes",
+  "status": "agendada",
+  "valorConsulta": 180,
+  "dataCriacao": {
+    "$date": "2025-12-07T00:00:00.000Z"
+  },
+  "dataAtualizacao": {
+    "$date": "2025-12-07T00:00:00.000Z"
+  }
+},
+{
+  "_id": "con014",
+  "pacienteId": "pac004",
+  "medicoId": "med006",
+  "dataHora": "2025-12-16 10:30:00",
+  "motivo": "Exame preventivo",
+  "status": "agendada",
+  "valorConsulta": 230,
+  "dataCriacao": {
+    "$date": "2025-12-06T00:00:00.000Z"
+  },
+  "dataAtualizacao": {
+    "$date": "2025-12-06T00:00:00.000Z"
+  }
+},
+{
+  "_id": "con015",
+  "pacienteId": "pac010",
+  "medicoId": "med005",
+  "dataHora": "2025-12-18 15:00:00",
+  "motivo": "Primeira consulta",
+  "status": "agendada",
+  "valorConsulta": 180,
+  "dataCriacao": {
+    "$date": "2025-12-07T00:00:00.000Z"
+  },
+  "dataAtualizacao": {
+    "$date": "2025-12-07T00:00:00.000Z"
+  }
+},
+{
+  "_id": "con016",
+  "pacienteId": "pac008",
+  "medicoId": "med004",
+  "dataHora": "2025-12-19 16:00:00",
+  "motivo": "Acne facial",
+  "status": "agendada",
+  "valorConsulta": 220,
+  "dataCriacao": {
+    "$date": "2025-12-05T00:00:00.000Z"
+  },
+  "dataAtualizacao": {
+    "$date": "2025-12-05T00:00:00.000Z"
+  }
+},
+{
+  "_id": "con017",
+  "pacienteId": "pac011",
+  "medicoId": "med003",
+  "dataHora": "2025-12-20 14:30:00",
+  "motivo": "Retorno ortopédico",
+  "status": "confirmada",
+  "valorConsulta": 280,
+  "dataCriacao": {
+    "$date": "2025-12-06T00:00:00.000Z"
+  },
+  "dataAtualizacao": {
+    "$date": "2025-12-06T00:00:00.000Z"
+  }
+}]

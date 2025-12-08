@@ -1,0 +1,99 @@
+[{
+  "_id": "usr001",
+  "nome": "Carlos Administrador",
+  "email": "admin@medsys.com",
+  "senha": "$2a$10$N9qo8uLOickgx2ZMRZoMye",
+  "funcao": "administrador",
+  "ativo": true,
+  "dataCadastro": {
+    "$date": "2025-01-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": "usr002",
+  "nome": "Dr. João Silva",
+  "email": "joao.silva@medsys.com",
+  "senha": "$2a$10$N9qo8uLOickgx2ZMRZoMye",
+  "funcao": "medico",
+  "ativo": true,
+  "dataCadastro": {
+    "$date": "2025-02-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": "usr003",
+  "nome": "Dra. Maria Santos",
+  "email": "maria.santos@medsys.com",
+  "senha": "$2a$10$N9qo8uLOickgx2ZMRZoMye",
+  "funcao": "medico",
+  "ativo": true,
+  "dataCadastro": {
+    "$date": "2025-02-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": "usr004",
+  "nome": "Dr. Pedro Oliveira",
+  "email": "pedro.oliveira@medsys.com",
+  "senha": "$2a$10$N9qo8uLOickgx2ZMRZoMye",
+  "funcao": "medico",
+  "ativo": true,
+  "dataCadastro": {
+    "$date": "2025-02-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": "usr005",
+  "nome": "Dra. Ana Costa",
+  "email": "ana.costa@medsys.com",
+  "senha": "$2a$10$N9qo8uLOickgx2ZMRZoMye",
+  "funcao": "medico",
+  "ativo": true,
+  "dataCadastro": {
+    "$date": "2025-03-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": "usr006",
+  "nome": "Dr. Roberto Lima",
+  "email": "roberto.lima@medsys.com",
+  "senha": "$2a$10$N9qo8uLOickgx2ZMRZoMye",
+  "funcao": "medico",
+  "ativo": true,
+  "dataCadastro": {
+    "$date": "2025-03-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": "usr007",
+  "nome": "Dra. Juliana Ferreira",
+  "email": "juliana.ferreira@medsys.com",
+  "senha": "$2a$10$N9qo8uLOickgx2ZMRZoMye",
+  "funcao": "medico",
+  "ativo": true,
+  "dataCadastro": {
+    "$date": "2025-03-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": "usr008",
+  "nome": "Paula Recepcionista",
+  "email": "paula@medsys.com",
+  "senha": "$2a$10$N9qo8uLOickgx2ZMRZoMye",
+  "funcao": "recepcionista",
+  "ativo": true,
+  "dataCadastro": {
+    "$date": "2025-01-20T00:00:00.000Z"
+  }
+},
+{
+  "_id": "usr009",
+  "nome": "Fernanda Atendimento",
+  "email": "fernanda@medsys.com",
+  "senha": "$2a$10$N9qo8uLOickgx2ZMRZoMye",
+  "funcao": "recepcionista",
+  "ativo": true,
+  "dataCadastro": {
+    "$date": "2025-02-10T00:00:00.000Z"
+  }
+}]

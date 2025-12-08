@@ -1,0 +1,78 @@
+[{
+  "_id": "med001",
+  "nome": "Dr. João Silva",
+  "crm": "12345-SP",
+  "especialidade": "Cardiologia",
+  "usuarioId": "usr002",
+  "telefone": "(11) 98765-4321",
+  "email": "joao.silva@medsys.com",
+  "ativo": true,
+  "dataCadastro": {
+    "$date": "2025-02-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": "med002",
+  "nome": "Dra. Maria Santos",
+  "crm": "67890-SP",
+  "especialidade": "Pediatria",
+  "usuarioId": "usr003",
+  "telefone": "(11) 91234-5678",
+  "email": "maria.santos@medsys.com",
+  "ativo": true,
+  "dataCadastro": {
+    "$date": "2025-02-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": "med003",
+  "nome": "Dr. Pedro Oliveira",
+  "crm": "11111-SP",
+  "especialidade": "Ortopedia",
+  "usuarioId": "usr004",
+  "telefone": "(11) 99999-1111",
+  "email": "pedro.oliveira@medsys.com",
+  "ativo": true,
+  "dataCadastro": {
+    "$date": "2025-02-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": "med004",
+  "nome": "Dra. Ana Costa",
+  "crm": "22222-SP",
+  "especialidade": "Dermatologia",
+  "usuarioId": "usr005",
+  "telefone": "(11) 98888-2222",
+  "email": "ana.costa@medsys.com",
+  "ativo": true,
+  "dataCadastro": {
+    "$date": "2025-03-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": "med005",
+  "nome": "Dr. Roberto Lima",
+  "crm": "33333-SP",
+  "especialidade": "Clínica Geral",
+  "usuarioId": "usr006",
+  "telefone": "(11) 97777-3333",
+  "email": "roberto.lima@medsys.com",
+  "ativo": true,
+  "dataCadastro": {
+    "$date": "2025-03-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": "med006",
+  "nome": "Dra. Juliana Ferreira",
+  "crm": "44444-SP",
+  "especialidade": "Ginecologia",
+  "usuarioId": "usr007",
+  "telefone": "(11) 96666-4444",
+  "email": "juliana.ferreira@medsys.com",
+  "ativo": true,
+  "dataCadastro": {
+    "$date": "2025-03-15T00:00:00.000Z"
+  }
+}]

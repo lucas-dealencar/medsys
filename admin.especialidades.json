@@ -1,0 +1,60 @@
+[{
+  "_id": "esp001",
+  "nome": "Clínica Geral",
+  "descricao": "Atendimento médico geral e preventivo",
+  "ativo": true
+},
+{
+  "_id": "esp002",
+  "nome": "Cardiologia",
+  "descricao": "Especialidade em doenças do coração e sistema cardiovascular",
+  "ativo": true
+},
+{
+  "_id": "esp003",
+  "nome": "Pediatria",
+  "descricao": "Especialidade em saúde infantil e adolescente",
+  "ativo": true
+},
+{
+  "_id": "esp004",
+  "nome": "Dermatologia",
+  "descricao": "Especialidade em doenças da pele, cabelo e unhas",
+  "ativo": true
+},
+{
+  "_id": "esp005",
+  "nome": "Ortopedia",
+  "descricao": "Especialidade em ossos, articulações e músculos",
+  "ativo": true
+},
+{
+  "_id": "esp006",
+  "nome": "Ginecologia",
+  "descricao": "Especialidade em saúde da mulher",
+  "ativo": true
+},
+{
+  "_id": "esp007",
+  "nome": "Oftalmologia",
+  "descricao": "Especialidade em saúde ocular",
+  "ativo": true
+},
+{
+  "_id": "esp008",
+  "nome": "Psiquiatria",
+  "descricao": "Especialidade em saúde mental",
+  "ativo": true
+},
+{
+  "_id": "esp009",
+  "nome": "Neurologia",
+  "descricao": "Especialidade em sistema nervoso",
+  "ativo": true
+},
+{
+  "_id": "esp010",
+  "nome": "Endocrinologia",
+  "descricao": "Especialidade em hormônios e metabolismo",
+  "ativo": true
+}]
