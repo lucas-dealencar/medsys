@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2><i class="fa-solid fa-users text-success"></i> Pacientes</h2>
+    <a href="/cadastro" class="btn btn-success shadow-sm"><i class="fa-solid fa-plus"></i> Novo Paciente</a>
+</div>
+
+<div class="card shadow-sm border-0">
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table table-hover mb-0 align-middle">
+                <thead class="bg-success text-white">
+                    <tr>
+                        <th class="py-3">Nome</th>
+                        <th class="py-3">CPF</th>
+                        <th class="py-3">Contato</th>
+                        <th class="py-3">Localização</th>
+                        <th class="py-3">Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for p in pacientes %}
+                    <tr>
+                        <td>
+                            <div class="fw-bold text-dark">{{ p.nome }}</div>
+                            <small class="text-muted">Nasc: {{ p.dataNascimento.strftime('%d/%m/%Y') }}</small>
+                        </td>
+                        <td>{{ p.cpf }}</td>
+                        <td>
+                            <div class="d-flex flex-column">
+                                <small><i class="fa-solid fa-phone me-1"></i> {{ p.telefone }}</small>
+                                {% if p.email %}
+                                <small class="text-muted"><i class="fa-solid fa-envelope me-1"></i> {{ p.email }}</small>
+                                {% endif %}
+                            </div>
+                        </td>
+                        <td>
+                            {% if p.endereco %}
+                                <span class="badge bg-light text-dark border">
+                                    {{ p.endereco.cidade }} / {{ p.endereco.estado }}
+                                </span>
+                            {% else %}
+                                <span class="text-muted">-</span>
+                            {% endif %}
+                        </td>
+                        <td>
+                            <button class="btn btn-sm btn-outline-primary" title="Ver Prontuário">
+                                <i class="fa-solid fa-file-medical"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}

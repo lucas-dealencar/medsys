@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2><i class="fa-solid fa-user-doctor text-primary"></i> Corpo Clínico</h2>
+    <span class="badge bg-secondary fs-6">{{ medicos|length }} profissionais</span>
+</div>
+
+<div class="card shadow-sm">
+    <div class="card-body p-0">
+        <table class="table table-striped table-hover mb-0">
+            <thead class="table-dark">
+                <tr>
+                    <th>Nome</th>
+                    <th>CRM</th>
+                    <th>Especialidade</th>
+                    <th>Contato</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for medico in medicos %}
+                <tr>
+                    <td class="fw-bold">{{ medico.nome }}</td>
+                    <td><span class="badge bg-light text-dark border">{{ medico.crm }}</span></td>
+                    <td>{{ medico.especialidade }}</td>
+                    <td>
+                        <small class="d-block text-muted"><i class="fa-solid fa-envelope"></i> {{ medico.email }}</small>
+                        <small class="d-block text-muted"><i class="fa-solid fa-phone"></i> {{ medico.telefone }}</small>
+                    </td>
+                    <td>
+                        {% if medico.ativo %}
+                            <span class="badge bg-success rounded-pill"><i class="fa-solid fa-check"></i> Ativo</span>
+                        {% else %}
+                            <span class="badge bg-danger rounded-pill">Inativo</span>
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

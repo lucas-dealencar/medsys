@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2><i class="fa-solid fa-calendar-days text-warning"></i> Histórico de Consultas</h2>
+    <div class="badge bg-dark fs-6">{{ consultas|length }} Registros</div>
+</div>
+
+<div class="card shadow-sm border-0">
+    <div class="card-body p-0">
+        <table class="table table-hover mb-0 align-middle">
+            <thead class="bg-warning text-dark">
+                <tr>
+                    <th class="py-3">Data e Hora</th>
+                    <th class="py-3">Motivo</th>
+                    <th class="py-3">Status</th>
+                    <th class="py-3">Valor</th>
+                    <th class="py-3">Detalhes</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for c in consultas %}
+                <tr>
+                    <td>
+                        <div class="fw-bold fs-5">{{ c.dataHora.strftime('%d/%m/%Y') }}</div>
+                        <div class="text-muted"><i class="fa-regular fa-clock"></i> {{ c.dataHora.strftime('%H:%M') }}</div>
+                    </td>
+                    <td>{{ c.motivo }}</td>
+                    <td>
+                        {% if c.status == 'confirmada' %}
+                            <span class="badge bg-success rounded-pill px-3">Confirmada</span>
+                        {% elif c.status == 'agendada' %}
+                            <span class="badge bg-primary rounded-pill px-3">Agendada</span>
+                        {% elif c.status == 'realizada' %}
+                            <span class="badge bg-secondary rounded-pill px-3">Realizada</span>
+                        {% elif c.status == 'cancelada' %}
+                            <span class="badge bg-danger rounded-pill px-3">Cancelada</span>
+                        {% else %}
+                            <span class="badge bg-light text-dark border">{{ c.status }}</span>
+                        {% endif %}
+                    </td>
+                    <td class="fw-bold text-success">
+                        R$ {{ "%.2f"|format(c.valorConsulta) }}
+                    </td>
+                    <td>
+                        <small class="d-block text-muted">ID Paciente: {{ c.pacienteId }}</small>
+                        <small class="d-block text-muted">ID Médico: {{ c.medicoId }}</small>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
